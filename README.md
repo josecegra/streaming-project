@@ -1,8 +1,8 @@
 # streaming-project
 
-```shell
-docker compose up -d --build
-```
+Kafka
+mongodb and postgresql for data storage
+FastAPI endpoints to interact with storage
 
 ## Data Architecture
 <img src="imgs/data_architecture.png" alt="Data Architecture" width="500">
@@ -18,3 +18,17 @@ docker compose up -d --build
 
 ## Docker Images
 <img src="imgs/docker_images.png" alt="Docker Images" width="500">
+
+
+## Repositories
+
+* [Core services: Kafka, Data Warehouse](https://github.com/josecegra/core-services-streaming)
+* [Data Source service](https://github.com/josecegra/data-source-streaming)
+* [Data Consumer service](https://github.com/josecegra/data-warehouse-streaming)
+
+
+## Creating the diagrams
+
+```shell
+docker compose up -d --build
+```
