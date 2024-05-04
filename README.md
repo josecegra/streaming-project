@@ -1,8 +1,4 @@
-# streaming-project
-
-Kafka
-mongodb and postgresql for data storage
-FastAPI endpoints to interact with storage
+# Data Streaming Project
 
 ## Data Architecture
 <img src="imgs/data_architecture.png" alt="Data Architecture" width="500">
